@@ -11,5 +11,5 @@ while [ $a -ne $b ]; do
   b=`expr $b - $a`
  fi
 done
-echo "最大公約数は"$a"="$b
+echo "最大公約数は"$a
 echo "最小公倍数は"`expr $c / $a`
