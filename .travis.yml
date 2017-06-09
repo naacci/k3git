@@ -2,5 +2,8 @@ language: sh
 script:
   - ./kadai3.sh 400 20
   - ./kadai3.sh 500 88
-  - ./kadai3.sh 55:42 8898
+  - ./kadai3.sh -44 8898
+  - ./kadai3.sh 99 -89
+  - ./kadai3.sh 0 9
+  - ./kadai3.sh i O
   - ./kadai3.sh 1234567 7jhk
