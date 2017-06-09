@@ -5,7 +5,7 @@ b=$2
 
 expr $a + $b > /dev/null 2>&1
 if [ $? -eq 2 ]; then
- echo "only natural numbers allowed"
+ "input 2 natural numbers"
 else
 
 c=`expr $a \* $b`
