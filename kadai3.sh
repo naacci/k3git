@@ -22,5 +22,4 @@ b=$2
   done
  echo "最大公約数は"$a
  echo "最小公倍数は"`expr $c / $a`
- echo `expr $1 \* $2`
  fi
